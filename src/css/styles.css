@@ -1,0 +1,497 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.nav-head .navbar-text {
+  font-weight: 900;
+  color: #3555d3;
+  margin-left: 10px;
+}
+
+.nav-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.897);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  position: fixed;
+  width: 100%;
+  left: 0;
+  top: 0;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.5);
+  padding: 30px 15px;
+}
+
+li {
+  list-style: none;
+  margin-right: 25px;
+}
+
+.nav-bar {
+  display: flex;
+}
+
+.vaccine {
+  margin-top: 100px;
+  padding-top: 150px;
+  width: 550px;
+  background: rgb(8, 152, 230);
+  background: linear-gradient(
+    90deg,
+    rgba(8, 152, 230, 1) 0%,
+    rgba(41, 113, 221, 1) 100%
+  );
+}
+
+.vaccine img {
+  width: 500px;
+  align-items: center;
+}
+
+.container {
+  max-width: 1280px;
+  margin: auto;
+  width: 90%;
+}
+
+.banner-head {
+  padding-top: 60px;
+}
+
+.content-banner {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.icon-nav {
+  display: flex;
+  align-items: center;
+  padding-top: 50px;
+}
+
+.icon-nav h4 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #1f3e72;
+}
+
+.banner-text {
+  padding-left: 110px;
+  padding-right: 110px;
+}
+
+.banner-text h1 {
+  font-weight: 900;
+  font-size: 85px;
+  color: #1f3e72;
+}
+
+.banner-text p {
+  font-weight: 400;
+  font-size: 28px;
+  padding-top: 40px;
+  color: #919cae;
+  text-align: justify;
+}
+
+.icon-shield {
+  color: #ffd012;
+  background-color: #fcf2ccc2;
+  padding: 8px;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.icon-star {
+  color: #ffd012;
+  background-color: #fcf2ccc2;
+  padding: 8px;
+  border-radius: 5px;
+  margin-right: 10px;
+  margin-left: 100px;
+}
+
+.banner-schedule {
+  align-items: center;
+  margin-left: 429px;
+}
+
+.banner-schedule h4 {
+  display: flex;
+  align-items: center;
+  margin: -10rem 12rem;
+  margin-left: 0;
+}
+
+.icon-sche {
+  color: #2848c6;
+  background-color: #dfe7ff;
+  height: 25px;
+  padding: 6px;
+  border-radius: 7px;
+  margin-right: 15px;
+}
+
+.banner {
+  position: absolute;
+  display: flex;
+  gap: 7rem;
+  align-items: center;
+  padding: 1rem;
+  box-shadow: 0px 10px 40px rgba(3, 19, 23, 0.25);
+  border-radius: 1rem;
+  margin: 11rem 34rem;
+  background-color: rgba(255, 255, 255, 0.897);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+}
+
+.datosVacunaTitulo {
+  font-size: 2rem;
+  text-align: left;
+  color: #2848c6;
+  background-color: #dfe7ff;
+  height: 25px;
+  padding: 6px;
+  border-radius: 7px;
+}
+
+.datosVacuna p {
+  align-items: center;
+  font-weight: 600;
+  font-size: 20px;
+  color: #1f3e72;
+}
+
+.datosVacuna h4 {
+  font-weight: 400;
+  font-size: 16px;
+  color: #919cae;
+}
+
+.botton-submit {
+  text-decoration: none;
+  color: #fff;
+  background-color: #2848c6;
+  padding: 10px 10px;
+  border-radius: 6px;
+  box-shadow: 0px 10px 40px rgba(3, 8, 23, 0.25);
+  transition: ease-in-out 0.5s;
+}
+
+.botton-submit:hover {
+  transition: ease-in-out 0.5s;
+  text-decoration: none;
+  color: #fff;
+  background-color: #1f3e72;
+  padding: 10px 10px;
+  border-radius: 6px;
+  box-shadow: 0px 10px 40px rgba(3, 8, 23, 0.25);
+}
+/*MARCAS SECCION*/
+.marcas {
+  background-color: #fff;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin-top: 19rem;
+  margin-left: 5%;
+  align-items: flex-end;
+}
+/*MARCAS SECCION*/
+/*QUESTIONS SECCION*/
+.question-container {
+  margin-top: 80px;
+  width: 27rem;
+}
+.question-container h1 {
+  font-weight: 900;
+  font-size: 40px;
+  color: #1f3e72;
+}
+.question-container p {
+  font-weight: 400;
+  font-size: 16px;
+  padding-top: 40px;
+  color: #919cae;
+  text-align: justify;
+}
+.articulo {
+  width: 23%;
+  background: #fff;
+  margin-bottom: 30px;
+  border-radius: 10px;
+  padding: 45px 30px 60px 30px;
+  transition: 0.5s;
+}
+.articulo:hover {
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.26);
+}
+
+.contenedor-articulo {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 60px;
+  justify-content: space-around;
+}
+.cog {
+  font-size: 20px;
+  color: #2848c6;
+}
+
+.fondo-icono {
+  background-color: #dfe7ff;
+  width: 40px;
+  height: 40px;
+  border-radius: 13px;
+  text-align: center;
+  display: inline-block;
+  text-align: center;
+  box-shadow: 0 8px 12px rgba(31, 136, 222, 0.205);
+  padding-top: 4%;
+}
+
+.articulo p {
+  font-weight: 400;
+  font-size: 16px;
+  padding-top: 40px;
+  color: #919cae;
+  text-align: justify;
+}
+
+.articulo h3 {
+  font-weight: 500;
+  font-size: 30px;
+  color: #1f3e72;
+  margin-top: 15px;
+}
+/*QUESTIONS SECCION*/
+/*PREPARATIONS SECCION*/
+.container-preparation {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.container-nurse {
+  display: flex;
+}
+.preparation-img img {
+  width: 550px;
+}
+
+.boxs-kills {
+  margin: 30px 30px 0 0;
+}
+
+.boxs-kills h4 {
+  font-weight: 500;
+  font-size: 20px;
+  background-color: #f3f3f39f;
+  color: #1f3e72;
+  width: 650px;
+  border-radius: 6px;
+  padding: 10px 0 10px 15px;
+  margin-bottom: 20px;
+  margin-left: 25px;
+}
+
+.checkstatus {
+  color: #2848c6;
+  background-color: #dfe7ff;
+  height: 20px;
+  padding: 4px;
+  border-radius: 7px;
+  margin-right: 15px;
+}
+.preparation-text {
+  width: 50%;
+  margin-left: 90px;
+  align-items: center;
+}
+
+.preparation-text h1 {
+  font-weight: 900;
+  font-size: 40px;
+  color: #1f3e72;
+}
+
+.preparation-text p {
+  font-weight: 400;
+  font-size: 24px;
+  padding-top: 40px;
+  color: #919cae;
+  text-align: justify;
+}
+/*PREPARATIONS SECCION*/
+/*EMERGENCY SECCION*/
+.container-preparation-contact {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-bottom: 120px;
+}
+
+.container-nurse-contact {
+  margin-top: 110px;
+  display: flex;
+}
+.preparation-img-contact img {
+  margin-top: 100px;
+  width: 520px;
+}
+
+.preparation-text-contact {
+  margin-left: 90px;
+  align-items: center;
+}
+
+.preparation-text-contact h1 {
+  font-weight: 900;
+  font-size: 40px;
+  color: #1f3e72;
+}
+
+.contact-preparation {
+  font-weight: 400;
+  font-size: 24px;
+  padding-top: 40px;
+  color: #919cae;
+  text-align: justify;
+  
+}
+
+.articulo-contact {
+  width: 35%;
+  background-color: #f3f3f363;
+  margin-bottom: 30px;
+  border-radius: 10px;
+  padding: 5px 30px 60px 30px;
+  transition: 0.5s;
+}
+.articulo-contact:hover {
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.26);
+}
+
+.contenedor-articulo-contact {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 20px;
+  justify-content: space-around;
+}
+.cog-contact {
+  color: #2848c6;
+  background-color: #dfe7ff;
+  height: 20px;
+  padding: 6px;
+  border-radius: 7px;
+  margin-right: 15px;
+}
+
+.fondo-icono-contact {
+  background-color: #dfe7ff;
+  width: 40px;
+  height: 40px;
+  border-radius: 13px;
+  text-align: center;
+  display: inline-block;
+  text-align: center;
+  box-shadow: 0 8px 12px rgba(31, 136, 222, 0.205);
+  padding-top: 4%;
+}
+
+.articulo-contact p {
+  font-weight: 400;
+  font-size: 16px;
+
+  color: #919cae;
+  text-align: justify;
+  padding-bottom: 45px;
+}
+
+.articulo-contact h3 {
+  font-weight: 400;
+  font-size: 23px;
+  color: #1f3e72;
+  margin-top: 15px;
+}
+.articulo-contact a {
+  color: #1f3e72;
+  text-decoration: none;
+  margin-top: 10px;
+  margin-left: 10px;
+  align-items: center;
+  background-color: #f1f5ff;
+  padding: 20px 30px 20px 30px;
+  border-radius: 9px;
+  box-shadow: 0 8px 12px rgba(31, 136, 222, 0.205);
+  transition: ease-in-out 0.5s;
+}
+.articulo-contact a:hover {
+  text-decoration: none;
+  color: #fff;
+  margin-top: 10px;
+  margin-left: 10px;
+  align-items: center;
+  background-color: #2747c5;
+  padding: 20px 30px 20px 30px;
+  border-radius: 9px;
+  box-shadow: 0 8px 12px rgba(31, 136, 222, 0.205);
+  transition: ease-in-out 0.5s;
+}
+/*EMERGENCY SECCION*/
+/*FOOTER*/
+
+footer {
+  background: #eef3ff;
+  padding: 60px 0;
+  overflow: hidden;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin: auto;
+}
+
+.partFooter {
+  width: 20%;
+  text-align: center;
+}
+
+.partFooter h4 {
+  color: #1f3e72;
+}
+.partFooter .footer-title {
+  font-weight: 700;
+  font-size: 35px;
+  color: #3555d3;
+  margin-left: 10px;
+}
+
+.partFooter img {
+  width: 70%;
+}
+
+.partFooter a {
+  display: block;
+  text-decoration: none;
+  color: #5d6678;
+  font-weight: 300;
+  transition: color 0.3s ease-in-out;
+  margin-bottom: 10px;
+}
+
+.partFooter a:hover {
+  color: #1fde82;
+}
+
+/*FOOTER*/
